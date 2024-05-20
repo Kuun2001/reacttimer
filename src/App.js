@@ -1,6 +1,6 @@
 import { useState, useRef } from 'react';
 import useTimer from "./useTimer";
-
+import { formatTime } from './formatTime';
 function App() {
   const { time, startTimer, stopTimer, resetTimer, active } = useTimer(0);
 
